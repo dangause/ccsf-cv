@@ -3,12 +3,27 @@
 filename_d = {
     'target': {
         'ay_psc': [
-            'd4082.fits',
-            'd4083.fits',
-            'd4084.fits',
-            'd4085.fits',
-            'd4086.fits'
-            ]
+            {
+                'filename': 'd4082.fits',
+                'exposure_time': 30
+            },
+            {
+                'filename': 'd4083.fits',
+                'exposure_time': 180
+            },
+            {
+                'filename': 'd4084.fits',
+                'exposure_time': 120
+            },
+            {
+                'filename': 'd4085.fits',
+                'exposure_time': 60
+            },
+            {
+                'filename': 'd4086.fits',
+                'exposure_time': 60
+            }
+        ]
     },
     'bias': [
         'd4000.fits',
